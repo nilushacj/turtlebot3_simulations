@@ -393,7 +393,7 @@
         <update_rate>30</update_rate>
         <visualize>1</visualize>
 
-        <!-- <<< USE THE GENERIC CAMERA PLUGIN HERE >>> -->
+        <!-- <<< USE THE GENERIC CAMERA PLUGIN >>> -->
         <plugin name="gazebo_ros_camera" filename="libgazebo_ros_camera.so">
           <ros><namespace>/</namespace></ros>
           <cameraName>turtlebot3_front_depth</cameraName>
